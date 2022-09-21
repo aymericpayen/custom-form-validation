@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The code is covering:
 
-Things you may want to cover:
+* Page to upload YAML file
+  * Test covering correct display of the page and correct upload of file
+* Questionnaire Validation
+  * Custom "Questionnaire::Validator" create to validate slides, questions and answers compliancy
+* Endpoint (localhost:3000/questionnaires/:reference) to display in JSON format
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# REQUIRED COMMANDS PRIOR LAUNCHING
+* bundle install
+* rails db:create db:migrate
