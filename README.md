@@ -27,5 +27,6 @@ The code is covering:
     * A valid file (/spec/models/dumy_yamls/questionnaire_good.yml) is used to confirm correct validation
     * A invalid file (/spec/models/dumy_yamls/questionnaire_bad.yml) is used to confirm incorrect validation
 
-Note: Unicite of reference has been delcared to ensure unique localhost:3000/questionnaires/:reference and avoid same reference name throughout the database
-Note: 'questionnaire.yml' must be loaded from the root of the app
+#Notes
+* Unicity of reference has been delcared to ensure unique localhost:3000/questionnaires/:reference and avoid same reference name throughout the database
+* 'questionnaire.yml' must be loaded from the root of the app
